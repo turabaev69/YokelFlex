@@ -1,7 +1,26 @@
 body {
+  margin: 0;
   font-family: "Montserrat";
   text-align: center;
 }
+
+
+.bg{
+
+  display: block;
+  width: 100%;
+  height: auto;
+
+  max-width: 100%;
+  height: auto;
+  /* border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px; */
+}
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
@@ -30,12 +49,14 @@ a {
 
 /*Containers*/
 .container-fluid {
+  
   padding: 7% 15%;
 }
 
 /*Page Section*/
 .colored-section {
-  background-color: #fd7e14;
+  
+  /* background-color: #fd7e14; */
   color: #fff;
 }
 
@@ -49,6 +70,7 @@ a {
 
 /* Navigation bar */
 .navbar {
+ 
   padding: 0 0 4.5rem;
 }
 
@@ -62,6 +84,23 @@ a {
   font-size: 23px;
   padding: 0 18px;
   
+}
+
+.nft{
+  color: red;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.nftk{
+  color: red;
+  font-size: 23px;
+  font-family: "Monserrat light";
+  line-height: 55px;
+  text-decoration: none;
 }
 .nav-link{
   color: #fff;
@@ -81,9 +120,21 @@ a {
 
 /*Title section*/
 #title {
-  background-color: #fd7e14;;
+  background-image: url("/images/oranges2.jpg");
+  background-repeat: repeat-y;
+
+  /* background-color: #fd7e14;; */
   color: white;
   text-align: left;
+
+
+  background-color: #cccccc;
+
+  /* background-position: bottom; */
+  background-position:25% 85%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 #title .container-fluid {
@@ -133,8 +184,8 @@ a {
 }
 
 .testimonial-image {
-  width: 10%;
-  border-radius: 100%;
+  width: 20%;
+  border-radius: 10%;
   margin: 20px;
 }
 
@@ -175,7 +226,8 @@ a {
 }
 
 .copyright {
-  font-size: x-small;
+  font-size: 25px;
+  /* font-size: x-small; */
   color: #fff;
 }
 
