@@ -5,7 +5,7 @@ Start this app on your local machine via going to command line > "node app.js"
 
 ## Project Demo
 
-![Demo Video](./videos/demo.mov)
+![Demo Video](./videos/demo.mp4)
 
 
 ## Project Demo
